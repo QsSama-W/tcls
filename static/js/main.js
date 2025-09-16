@@ -124,6 +124,12 @@ function tiaoma_hegui() {
     window.open(targetUrl, '_blank');
 }
 
+// 源码地址
+function github() {
+    var targetUrl = "https://github.com/QsSama-W/tcls";
+    window.open(targetUrl, '_blank');
+}
+
 // 下载合成的PDF
 function downloadMergedPDF() {
     if (mergedBlob) {
