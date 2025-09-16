@@ -59,6 +59,22 @@ input[type="file"]:hover {
     background: #45a049;
     transform: translateY(-2px);
 }
+.github-btn {
+    background: #0366d6;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 8px;
+    transition: background 0.3s;
+    transition: background 0.3s, transform 0.2s;
+}
+.github-btn:hover {
+    background: #005cc5;
+    transform: translateY(-2px);
+}
 .clear-btn {
     background: #ff4444;
     color: white;
